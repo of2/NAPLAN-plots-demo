@@ -2,7 +2,7 @@
 
 ### Matrix plots - Expected Relative Performance vs. Impact Index
 
-High level communication of key model outputs. Previously referred to as "Risk" (now "expected relative performance") and "Consequence" (now "Impact Index")
+High level visualisation/communication of key model outputs. Previously referred to as "Risk" (now "expected relative performance") and "Consequence" (now "Impact Index")
 
 Expected Relative Performance (ERP): By state/territory, grade and remoteness, the predicted value for relative NAPLAN score compared to the national average for Indigenous students in that grade. Estimate is based on modelling of data across 10 years 2009-2019.
 
@@ -14,9 +14,9 @@ Bottom to top = quintiles (20% percentile bins) for lowest to highest Impact Ind
 
 Approx interpretation guide - Red = bad, green = good. Bottom row = many students affected by a large deficit score relative to corresponding national average scores. Left-most column = lowest 20% of scores relative to corresponding national averages.
 
-* [NAPLAN Writing - Matrix plot](writing_matrix_plot.html)
-* [NAPLAN Reading - Matrix plot](reading_matrix_plot.html)
-* [NAPLAN Numeracy - Matrix plot](numeracy_matrix_plot.html)
+* [NAPLAN Writing - Matrix plot](https://of2.github.io/NAPLAN-plots-demo/writing_matrix_plot.html)
+* [NAPLAN Reading - Matrix plot](https://of2.github.io/NAPLAN-plots-demo/reading_matrix_plot.html)
+* [NAPLAN Numeracy - Matrix plot](https://of2.github.io/NAPLAN-plots-demo/numeracy_matrix_plot.html)
 
 
 
@@ -26,6 +26,6 @@ Approx interpretation guide - Red = bad, green = good. Bottom row = many student
 
 The search function is not working for some reason. You can mouse over individual points to see what grade, state & remoteness area it is.
 
-* [NAPLAN Writing - ERP vs Population (Primary/Secondary)](writing_emms_plot.html)
-* [NAPLAN Reading - ERP vs Population (Primary/Secondary)](reading_emms_plot.html)
-* [NAPLAN Numeracy - ERP vs Population (Primary/Secondary)](numeracy_emms_plot.html)
+* [NAPLAN Writing - ERP vs Population (Primary/Secondary)](https://of2.github.io/NAPLAN-plots-demo/writing_emms_plot.html)
+* [NAPLAN Reading - ERP vs Population (Primary/Secondary)](https://of2.github.io/NAPLAN-plots-demo/reading_emms_plot.html)
+* [NAPLAN Numeracy - ERP vs Population (Primary/Secondary)](https://of2.github.io/NAPLAN-plots-demo/numeracy_emms_plot.html)
