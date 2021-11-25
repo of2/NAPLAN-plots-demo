@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+## Indigenous Students NAPLAN modelling
 
-You can use the [editor on GitHub](https://github.com/of2/NAPLAN-plots-demo/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Matrix plots - Expected Relative Performance vs. Impact Index
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+High level communication of key model outputs. Previously referred to as "Risk" (now "expected relative performance") and "Consequence" (now "Impact Index")
 
-### Markdown
+Expected Relative Performance (ERP): By state/territory, grade and remoteness, the predicted value for relative NAPLAN score compared to the national average for Indigenous students in that grade. Estimate is based on modelling of data across 10 years 2009-2019.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Impact Index: ERP multiplied by the corresponding number of students (at the PRIMARY or SECONDARY level) in that state/territory & remoteness area in the 2016 Census.
 
-```markdown
-Syntax highlighted code block
+Left to right = quintiles (20% percentile bins) for lowest to highest Expected Relative Performance
 
-# Header 1
-## Header 2
-### Header 3
+Bottom to top = quintiles (20% percentile bins) for lowest to highest Impact Index
 
-- Bulleted
-- List
+Approx interpretation guide - Red = bad, green = good. Bottom row = many students affected by a large deficit score relative to corresponding national average scores. Left-most column = lowest 20% of scores relative to corresponding national averages.
 
-1. Numbered
-2. List
+* [NAPLAN Writing - Matrix plot](https://github.com/of2/NAPLAN-plots-demo/writing_matrix_plot.html)
+* [NAPLAN Reading - Matrix plot](https://github.com/of2/NAPLAN-plots-demo/reading_matrix_plot.html)
+* [NAPLAN Numeracy - Matrix plot](https://github.com/of2/NAPLAN-plots-demo/numeracy_matrix_plot.html)
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/of2/NAPLAN-plots-demo/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### ERP vs Population (Primary/Secondary) plots
 
-### Support or Contact
+The search function is not working for some reason. You can mouse over individual points to see what grade, state & remoteness area it is.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+* [NAPLAN Writing - ERP vs Population (Primary/Secondary)](https://github.com/of2/NAPLAN-plots-demo/writing_emms_plot.html)
+* [NAPLAN Reading - ERP vs Population (Primary/Secondary)](https://github.com/of2/NAPLAN-plots-demo/reading_emms_plot.html)
+* [NAPLAN Numeracy - ERP vs Population (Primary/Secondary)](https://github.com/of2/NAPLAN-plots-demo/numeracy_emms_plot.html)
