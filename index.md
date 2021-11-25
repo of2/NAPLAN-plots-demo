@@ -14,7 +14,7 @@ Bottom to top = quintiles (20% percentile bins) for lowest to highest Impact Ind
 
 Approx interpretation guide - Red = bad, green = good. Bottom row = many students affected by a large deficit score relative to corresponding national average scores. Left-most column = lowest 20% of scores relative to corresponding national averages.
 
-* [NAPLAN Writing - Matrix plot](https://github.com/of2/NAPLAN-plots-demo/writing_matrix_plot.html)
+* [NAPLAN Writing - Matrix plot](writing_matrix_plot.html)
 * [NAPLAN Reading - Matrix plot](https://github.com/of2/NAPLAN-plots-demo/reading_matrix_plot.html)
 * [NAPLAN Numeracy - Matrix plot](https://github.com/of2/NAPLAN-plots-demo/numeracy_matrix_plot.html)
 
