@@ -14,11 +14,9 @@ Bottom to top = quintiles (20% percentile bins) for lowest to highest Impact Ind
 
 Approx interpretation guide - Red = bad, green = good. Bottom row = many students affected by a large deficit score relative to corresponding national average scores. Left-most column = lowest 20% of scores relative to corresponding national averages.
 
-<a href="https://github.com/of2/NAPLAN-plots-demo/writing_matrix_plot.html" title="NAPLAN Writing - Matrix plot">NAPLAN Writing - Matrix plot</a>
-
 * [NAPLAN Writing - Matrix plot](writing_matrix_plot.html)
-* [NAPLAN Reading - Matrix plot](https://github.com/of2/NAPLAN-plots-demo/reading_matrix_plot.html)
-* [NAPLAN Numeracy - Matrix plot](https://github.com/of2/NAPLAN-plots-demo/numeracy_matrix_plot.html)
+* [NAPLAN Reading - Matrix plot](reading_matrix_plot.html)
+* [NAPLAN Numeracy - Matrix plot](numeracy_matrix_plot.html)
 
 
 
@@ -28,6 +26,6 @@ Approx interpretation guide - Red = bad, green = good. Bottom row = many student
 
 The search function is not working for some reason. You can mouse over individual points to see what grade, state & remoteness area it is.
 
-* [NAPLAN Writing - ERP vs Population (Primary/Secondary)](https://github.com/of2/NAPLAN-plots-demo/writing_emms_plot.html)
-* [NAPLAN Reading - ERP vs Population (Primary/Secondary)](https://github.com/of2/NAPLAN-plots-demo/reading_emms_plot.html)
-* [NAPLAN Numeracy - ERP vs Population (Primary/Secondary)](https://github.com/of2/NAPLAN-plots-demo/numeracy_emms_plot.html)
+* [NAPLAN Writing - ERP vs Population (Primary/Secondary)](writing_emms_plot.html)
+* [NAPLAN Reading - ERP vs Population (Primary/Secondary)](reading_emms_plot.html)
+* [NAPLAN Numeracy - ERP vs Population (Primary/Secondary)](numeracy_emms_plot.html)
