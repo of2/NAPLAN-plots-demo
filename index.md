@@ -14,9 +14,11 @@ Bottom to top = quintiles (20% percentile bins) for lowest to highest Impact Ind
 
 Approx interpretation guide - Red = bad, green = good. Bottom row = many students affected by a large deficit score relative to corresponding national average scores. Left-most column = lowest 20% of scores relative to corresponding national averages.
 
-* [NAPLAN Writing - Matrix plot](https://of2.github.io/NAPLAN-plots-demo/writing_matrix_plot.html)
-* [NAPLAN Reading - Matrix plot](https://of2.github.io/NAPLAN-plots-demo/reading_matrix_plot.html)
-* [NAPLAN Numeracy - Matrix plot](https://of2.github.io/NAPLAN-plots-demo/numeracy_matrix_plot.html)
+**Mouse over points to see their labels. Try the search function (bottom left) to highlight a subset of data e.g. "QLD" or "3" or "Very remote"**
+
+* [NAPLAN Writing - Matrix plot](https://of2.github.io/NAPLAN-plots-demo/writing_matrix_plot.html){target="_blank"}
+* [NAPLAN Reading - Matrix plot](https://of2.github.io/NAPLAN-plots-demo/reading_matrix_plot.html){target="_blank"}
+* [NAPLAN Numeracy - Matrix plot](https://of2.github.io/NAPLAN-plots-demo/numeracy_matrix_plot.html){target="_blank"}
 
 
 
@@ -26,6 +28,6 @@ Approx interpretation guide - Red = bad, green = good. Bottom row = many student
 
 The search function is not working for some reason. You can mouse over individual points to see what grade, state & remoteness area it is.
 
-* [NAPLAN Writing - ERP vs Population (Primary/Secondary)](https://of2.github.io/NAPLAN-plots-demo/writing_emms_plot.html)
-* [NAPLAN Reading - ERP vs Population (Primary/Secondary)](https://of2.github.io/NAPLAN-plots-demo/reading_emms_plot.html)
-* [NAPLAN Numeracy - ERP vs Population (Primary/Secondary)](https://of2.github.io/NAPLAN-plots-demo/numeracy_emms_plot.html)
+* [NAPLAN Writing - ERP vs Population (Primary/Secondary)](https://of2.github.io/NAPLAN-plots-demo/writing_emms_plot.html){target="_blank"}
+* [NAPLAN Reading - ERP vs Population (Primary/Secondary)](https://of2.github.io/NAPLAN-plots-demo/reading_emms_plot.html){target="_blank"}
+* [NAPLAN Numeracy - ERP vs Population (Primary/Secondary)](https://of2.github.io/NAPLAN-plots-demo/numeracy_emms_plot.html){target="_blank"}
