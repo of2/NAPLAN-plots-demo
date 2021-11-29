@@ -1,0 +1,1467 @@
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<style>
+html, body { background-color: white; }
+table { border-collapse:collapse; border:none; }
+caption { font-weight: bold; text-align:left; }
+td {  }
+.thead { border-top: double; text-align:center; font-style:italic; font-weight:normal; padding:0.2cm; }
+.tdata { padding:0.2cm; text-align:left; vertical-align:top; }
+.arc { background-color:#f2f2f2; }
+.summary { padding-top:0.1cm; padding-bottom:0.1cm; }
+.summarydata { text-align:center; }
+.fixedparts { font-weight:bold; text-align:left; }
+.randomparts { font-weight:bold; text-align:left; padding-top:.8em; }
+.zeroparts { font-weight:bold; text-align:left; padding-top:.8em; }
+.simplexparts { font-weight:bold; text-align:left; padding-top:.8em; }
+.lasttablerow { border-bottom: double; }
+.firsttablerow { border-bottom:1px solid black; }
+.firstsumrow { border-top:1px solid; }
+.labelcellborder { border-bottom:1px solid; }
+.depvarhead { text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal; }
+.depvarheadnodv { border-top: double; text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal; }
+.leftalign { text-align:left; }
+.centeralign { text-align:center; }
+.firsttablecol { text-align:left; }
+.footnote { font-style:italic; border-top:double black; text-align:right; }
+.subtitle { font-weight: normal; }
+.modelcolumn1 {  }
+.modelcolumn2 {  }
+.modelcolumn3 {  }
+.modelcolumn4 {  }
+.modelcolumn5 {  }
+.modelcolumn6 {  }
+.modelcolumn7 {  }
+.col1 {  }
+.col2 {  }
+.col3 {  }
+.col4 {  }
+.col5 {  }
+.col6 {  }
+</style>
+</head>
+<body>
+<table>
+  <tr>
+    <th class="thead firsttablerow firsttablecol col1">state_remote_grade</th>
+    <th class="thead firsttablerow col2">x</th>
+    <th class="thead firsttablerow col3">predicted</th>
+    <th class="thead firsttablerow col4">std.error</th>
+    <th class="thead firsttablerow col5">conf.low</th>
+    <th class="thead firsttablerow col6">conf.high</th>
+    <th class="thead firsttablerow col7">group</th>
+    <th class="thead firsttablerow col8">facet</th>
+    <th class="thead firsttablerow col9">student_count_primsec</th>
+  </tr>
+  <tr>
+    <td class="tdata firsttablecol col1">ACT_Major cities_3</td>
+    <td class="tdata centeralign col2">ACT</td>
+    <td class="tdata centeralign col3">32.16</td>
+    <td class="tdata centeralign col4">2.47</td>
+    <td class="tdata centeralign col5">27.31</td>
+    <td class="tdata centeralign col6">37.01</td>
+    <td class="tdata centeralign col7">3</td>
+    <td class="tdata centeralign col8">Major cities</td>
+    <td class="tdata centeralign col9">897</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">ACT_Major cities_5</td>
+    <td class="tdata centeralign col2">ACT</td>
+    <td class="tdata centeralign col3">30.58</td>
+    <td class="tdata centeralign col4">2.47</td>
+    <td class="tdata centeralign col5">25.73</td>
+    <td class="tdata centeralign col6">35.43</td>
+    <td class="tdata centeralign col7">5</td>
+    <td class="tdata centeralign col8">Major cities</td>
+    <td class="tdata centeralign col9">897</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">ACT_Major cities_7</td>
+    <td class="tdata centeralign col2">ACT</td>
+    <td class="tdata centeralign col3">29.81</td>
+    <td class="tdata centeralign col4">2.47</td>
+    <td class="tdata centeralign col5">24.96</td>
+    <td class="tdata centeralign col6">34.66</td>
+    <td class="tdata centeralign col7">7</td>
+    <td class="tdata centeralign col8">Major cities</td>
+    <td class="tdata centeralign col9">642</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">ACT_Major cities_9</td>
+    <td class="tdata centeralign col2">ACT</td>
+    <td class="tdata centeralign col3">29.03</td>
+    <td class="tdata centeralign col4">2.47</td>
+    <td class="tdata centeralign col5">24.18</td>
+    <td class="tdata centeralign col6">33.88</td>
+    <td class="tdata centeralign col7">9</td>
+    <td class="tdata centeralign col8">Major cities</td>
+    <td class="tdata centeralign col9">642</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">ACT_Regional_3</td>
+    <td class="tdata centeralign col2">ACT</td>
+    <td class="tdata centeralign col3">NA</td>
+    <td class="tdata centeralign col4">NA</td>
+    <td class="tdata centeralign col5">NA</td>
+    <td class="tdata centeralign col6">NA</td>
+    <td class="tdata centeralign col7">3</td>
+    <td class="tdata centeralign col8">Regional</td>
+    <td class="tdata centeralign col9">NA</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">ACT_Regional_5</td>
+    <td class="tdata centeralign col2">ACT</td>
+    <td class="tdata centeralign col3">NA</td>
+    <td class="tdata centeralign col4">NA</td>
+    <td class="tdata centeralign col5">NA</td>
+    <td class="tdata centeralign col6">NA</td>
+    <td class="tdata centeralign col7">5</td>
+    <td class="tdata centeralign col8">Regional</td>
+    <td class="tdata centeralign col9">NA</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">ACT_Regional_7</td>
+    <td class="tdata centeralign col2">ACT</td>
+    <td class="tdata centeralign col3">NA</td>
+    <td class="tdata centeralign col4">NA</td>
+    <td class="tdata centeralign col5">NA</td>
+    <td class="tdata centeralign col6">NA</td>
+    <td class="tdata centeralign col7">7</td>
+    <td class="tdata centeralign col8">Regional</td>
+    <td class="tdata centeralign col9">NA</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">ACT_Regional_9</td>
+    <td class="tdata centeralign col2">ACT</td>
+    <td class="tdata centeralign col3">NA</td>
+    <td class="tdata centeralign col4">NA</td>
+    <td class="tdata centeralign col5">NA</td>
+    <td class="tdata centeralign col6">NA</td>
+    <td class="tdata centeralign col7">9</td>
+    <td class="tdata centeralign col8">Regional</td>
+    <td class="tdata centeralign col9">NA</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">ACT_Remote_3</td>
+    <td class="tdata centeralign col2">ACT</td>
+    <td class="tdata centeralign col3">NA</td>
+    <td class="tdata centeralign col4">NA</td>
+    <td class="tdata centeralign col5">NA</td>
+    <td class="tdata centeralign col6">NA</td>
+    <td class="tdata centeralign col7">3</td>
+    <td class="tdata centeralign col8">Remote</td>
+    <td class="tdata centeralign col9">NA</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">ACT_Remote_5</td>
+    <td class="tdata centeralign col2">ACT</td>
+    <td class="tdata centeralign col3">NA</td>
+    <td class="tdata centeralign col4">NA</td>
+    <td class="tdata centeralign col5">NA</td>
+    <td class="tdata centeralign col6">NA</td>
+    <td class="tdata centeralign col7">5</td>
+    <td class="tdata centeralign col8">Remote</td>
+    <td class="tdata centeralign col9">NA</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">ACT_Remote_7</td>
+    <td class="tdata centeralign col2">ACT</td>
+    <td class="tdata centeralign col3">NA</td>
+    <td class="tdata centeralign col4">NA</td>
+    <td class="tdata centeralign col5">NA</td>
+    <td class="tdata centeralign col6">NA</td>
+    <td class="tdata centeralign col7">7</td>
+    <td class="tdata centeralign col8">Remote</td>
+    <td class="tdata centeralign col9">NA</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">ACT_Remote_9</td>
+    <td class="tdata centeralign col2">ACT</td>
+    <td class="tdata centeralign col3">NA</td>
+    <td class="tdata centeralign col4">NA</td>
+    <td class="tdata centeralign col5">NA</td>
+    <td class="tdata centeralign col6">NA</td>
+    <td class="tdata centeralign col7">9</td>
+    <td class="tdata centeralign col8">Remote</td>
+    <td class="tdata centeralign col9">NA</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">ACT_Very remote_3</td>
+    <td class="tdata centeralign col2">ACT</td>
+    <td class="tdata centeralign col3">NA</td>
+    <td class="tdata centeralign col4">NA</td>
+    <td class="tdata centeralign col5">NA</td>
+    <td class="tdata centeralign col6">NA</td>
+    <td class="tdata centeralign col7">3</td>
+    <td class="tdata centeralign col8">Very remote</td>
+    <td class="tdata centeralign col9">NA</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">ACT_Very remote_5</td>
+    <td class="tdata centeralign col2">ACT</td>
+    <td class="tdata centeralign col3">NA</td>
+    <td class="tdata centeralign col4">NA</td>
+    <td class="tdata centeralign col5">NA</td>
+    <td class="tdata centeralign col6">NA</td>
+    <td class="tdata centeralign col7">5</td>
+    <td class="tdata centeralign col8">Very remote</td>
+    <td class="tdata centeralign col9">NA</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">ACT_Very remote_7</td>
+    <td class="tdata centeralign col2">ACT</td>
+    <td class="tdata centeralign col3">NA</td>
+    <td class="tdata centeralign col4">NA</td>
+    <td class="tdata centeralign col5">NA</td>
+    <td class="tdata centeralign col6">NA</td>
+    <td class="tdata centeralign col7">7</td>
+    <td class="tdata centeralign col8">Very remote</td>
+    <td class="tdata centeralign col9">NA</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">ACT_Very remote_9</td>
+    <td class="tdata centeralign col2">ACT</td>
+    <td class="tdata centeralign col3">NA</td>
+    <td class="tdata centeralign col4">NA</td>
+    <td class="tdata centeralign col5">NA</td>
+    <td class="tdata centeralign col6">NA</td>
+    <td class="tdata centeralign col7">9</td>
+    <td class="tdata centeralign col8">Very remote</td>
+    <td class="tdata centeralign col9">NA</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">NSW_Major cities_3</td>
+    <td class="tdata centeralign col2">NSW</td>
+    <td class="tdata centeralign col3">33.61</td>
+    <td class="tdata centeralign col4">1.82</td>
+    <td class="tdata centeralign col5">30.04</td>
+    <td class="tdata centeralign col6">37.18</td>
+    <td class="tdata centeralign col7">3</td>
+    <td class="tdata centeralign col8">Major cities</td>
+    <td class="tdata centeralign col9">14935</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">NSW_Major cities_5</td>
+    <td class="tdata centeralign col2">NSW</td>
+    <td class="tdata centeralign col3">31.60</td>
+    <td class="tdata centeralign col4">1.82</td>
+    <td class="tdata centeralign col5">28.03</td>
+    <td class="tdata centeralign col6">35.17</td>
+    <td class="tdata centeralign col7">5</td>
+    <td class="tdata centeralign col8">Major cities</td>
+    <td class="tdata centeralign col9">14935</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">NSW_Major cities_7</td>
+    <td class="tdata centeralign col2">NSW</td>
+    <td class="tdata centeralign col3">23.35</td>
+    <td class="tdata centeralign col4">1.84</td>
+    <td class="tdata centeralign col5">19.74</td>
+    <td class="tdata centeralign col6">26.96</td>
+    <td class="tdata centeralign col7">7</td>
+    <td class="tdata centeralign col8">Major cities</td>
+    <td class="tdata centeralign col9">10874</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">NSW_Major cities_9</td>
+    <td class="tdata centeralign col2">NSW</td>
+    <td class="tdata centeralign col3">20.02</td>
+    <td class="tdata centeralign col4">1.86</td>
+    <td class="tdata centeralign col5">16.37</td>
+    <td class="tdata centeralign col6">23.68</td>
+    <td class="tdata centeralign col7">9</td>
+    <td class="tdata centeralign col8">Major cities</td>
+    <td class="tdata centeralign col9">10874</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">NSW_Regional_3</td>
+    <td class="tdata centeralign col2">NSW</td>
+    <td class="tdata centeralign col3">18.36</td>
+    <td class="tdata centeralign col4">1.61</td>
+    <td class="tdata centeralign col5">15.20</td>
+    <td class="tdata centeralign col6">21.53</td>
+    <td class="tdata centeralign col7">3</td>
+    <td class="tdata centeralign col8">Regional</td>
+    <td class="tdata centeralign col9">17019</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">NSW_Regional_5</td>
+    <td class="tdata centeralign col2">NSW</td>
+    <td class="tdata centeralign col3">15.02</td>
+    <td class="tdata centeralign col4">1.61</td>
+    <td class="tdata centeralign col5">11.86</td>
+    <td class="tdata centeralign col6">18.19</td>
+    <td class="tdata centeralign col7">5</td>
+    <td class="tdata centeralign col8">Regional</td>
+    <td class="tdata centeralign col9">17019</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">NSW_Regional_7</td>
+    <td class="tdata centeralign col2">NSW</td>
+    <td class="tdata centeralign col3">8.06</td>
+    <td class="tdata centeralign col4">1.65</td>
+    <td class="tdata centeralign col5">4.83</td>
+    <td class="tdata centeralign col6">11.29</td>
+    <td class="tdata centeralign col7">7</td>
+    <td class="tdata centeralign col8">Regional</td>
+    <td class="tdata centeralign col9">11096</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">NSW_Regional_9</td>
+    <td class="tdata centeralign col2">NSW</td>
+    <td class="tdata centeralign col3">5.45</td>
+    <td class="tdata centeralign col4">1.67</td>
+    <td class="tdata centeralign col5">2.18</td>
+    <td class="tdata centeralign col6">8.72</td>
+    <td class="tdata centeralign col7">9</td>
+    <td class="tdata centeralign col8">Regional</td>
+    <td class="tdata centeralign col9">11096</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">NSW_Remote_3</td>
+    <td class="tdata centeralign col2">NSW</td>
+    <td class="tdata centeralign col3">-1.90</td>
+    <td class="tdata centeralign col4">1.85</td>
+    <td class="tdata centeralign col5">-5.53</td>
+    <td class="tdata centeralign col6">1.74</td>
+    <td class="tdata centeralign col7">3</td>
+    <td class="tdata centeralign col8">Remote</td>
+    <td class="tdata centeralign col9">808</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">NSW_Remote_5</td>
+    <td class="tdata centeralign col2">NSW</td>
+    <td class="tdata centeralign col3">-6.13</td>
+    <td class="tdata centeralign col4">1.85</td>
+    <td class="tdata centeralign col5">-9.76</td>
+    <td class="tdata centeralign col6">-2.49</td>
+    <td class="tdata centeralign col7">5</td>
+    <td class="tdata centeralign col8">Remote</td>
+    <td class="tdata centeralign col9">808</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">NSW_Remote_7</td>
+    <td class="tdata centeralign col2">NSW</td>
+    <td class="tdata centeralign col3">-13.06</td>
+    <td class="tdata centeralign col4">1.88</td>
+    <td class="tdata centeralign col5">-16.74</td>
+    <td class="tdata centeralign col6">-9.37</td>
+    <td class="tdata centeralign col7">7</td>
+    <td class="tdata centeralign col8">Remote</td>
+    <td class="tdata centeralign col9">516</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">NSW_Remote_9</td>
+    <td class="tdata centeralign col2">NSW</td>
+    <td class="tdata centeralign col3">-12.50</td>
+    <td class="tdata centeralign col4">1.92</td>
+    <td class="tdata centeralign col5">-16.27</td>
+    <td class="tdata centeralign col6">-8.74</td>
+    <td class="tdata centeralign col7">9</td>
+    <td class="tdata centeralign col8">Remote</td>
+    <td class="tdata centeralign col9">516</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">NSW_Very remote_3</td>
+    <td class="tdata centeralign col2">NSW</td>
+    <td class="tdata centeralign col3">-16.27</td>
+    <td class="tdata centeralign col4">1.96</td>
+    <td class="tdata centeralign col5">-20.10</td>
+    <td class="tdata centeralign col6">-12.43</td>
+    <td class="tdata centeralign col7">3</td>
+    <td class="tdata centeralign col8">Very remote</td>
+    <td class="tdata centeralign col9">226</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">NSW_Very remote_5</td>
+    <td class="tdata centeralign col2">NSW</td>
+    <td class="tdata centeralign col3">-20.31</td>
+    <td class="tdata centeralign col4">1.96</td>
+    <td class="tdata centeralign col5">-24.15</td>
+    <td class="tdata centeralign col6">-16.47</td>
+    <td class="tdata centeralign col7">5</td>
+    <td class="tdata centeralign col8">Very remote</td>
+    <td class="tdata centeralign col9">226</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">NSW_Very remote_7</td>
+    <td class="tdata centeralign col2">NSW</td>
+    <td class="tdata centeralign col3">-25.48</td>
+    <td class="tdata centeralign col4">2.45</td>
+    <td class="tdata centeralign col5">-30.29</td>
+    <td class="tdata centeralign col6">-20.66</td>
+    <td class="tdata centeralign col7">7</td>
+    <td class="tdata centeralign col8">Very remote</td>
+    <td class="tdata centeralign col9">134</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">NSW_Very remote_9</td>
+    <td class="tdata centeralign col2">NSW</td>
+    <td class="tdata centeralign col3">-21.89</td>
+    <td class="tdata centeralign col4">2.70</td>
+    <td class="tdata centeralign col5">-27.19</td>
+    <td class="tdata centeralign col6">-16.58</td>
+    <td class="tdata centeralign col7">9</td>
+    <td class="tdata centeralign col8">Very remote</td>
+    <td class="tdata centeralign col9">134</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">NT_Major cities_3</td>
+    <td class="tdata centeralign col2">NT</td>
+    <td class="tdata centeralign col3">NA</td>
+    <td class="tdata centeralign col4">NA</td>
+    <td class="tdata centeralign col5">NA</td>
+    <td class="tdata centeralign col6">NA</td>
+    <td class="tdata centeralign col7">3</td>
+    <td class="tdata centeralign col8">Major cities</td>
+    <td class="tdata centeralign col9">NA</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">NT_Major cities_5</td>
+    <td class="tdata centeralign col2">NT</td>
+    <td class="tdata centeralign col3">NA</td>
+    <td class="tdata centeralign col4">NA</td>
+    <td class="tdata centeralign col5">NA</td>
+    <td class="tdata centeralign col6">NA</td>
+    <td class="tdata centeralign col7">5</td>
+    <td class="tdata centeralign col8">Major cities</td>
+    <td class="tdata centeralign col9">NA</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">NT_Major cities_7</td>
+    <td class="tdata centeralign col2">NT</td>
+    <td class="tdata centeralign col3">NA</td>
+    <td class="tdata centeralign col4">NA</td>
+    <td class="tdata centeralign col5">NA</td>
+    <td class="tdata centeralign col6">NA</td>
+    <td class="tdata centeralign col7">7</td>
+    <td class="tdata centeralign col8">Major cities</td>
+    <td class="tdata centeralign col9">NA</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">NT_Major cities_9</td>
+    <td class="tdata centeralign col2">NT</td>
+    <td class="tdata centeralign col3">NA</td>
+    <td class="tdata centeralign col4">NA</td>
+    <td class="tdata centeralign col5">NA</td>
+    <td class="tdata centeralign col6">NA</td>
+    <td class="tdata centeralign col7">9</td>
+    <td class="tdata centeralign col8">Major cities</td>
+    <td class="tdata centeralign col9">NA</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">NT_Regional_3</td>
+    <td class="tdata centeralign col2">NT</td>
+    <td class="tdata centeralign col3">-3.69</td>
+    <td class="tdata centeralign col4">1.89</td>
+    <td class="tdata centeralign col5">-7.39</td>
+    <td class="tdata centeralign col6">0.02</td>
+    <td class="tdata centeralign col7">3</td>
+    <td class="tdata centeralign col8">Regional</td>
+    <td class="tdata centeralign col9">1683</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">NT_Regional_5</td>
+    <td class="tdata centeralign col2">NT</td>
+    <td class="tdata centeralign col3">2.11</td>
+    <td class="tdata centeralign col4">1.89</td>
+    <td class="tdata centeralign col5">-1.60</td>
+    <td class="tdata centeralign col6">5.81</td>
+    <td class="tdata centeralign col7">5</td>
+    <td class="tdata centeralign col8">Regional</td>
+    <td class="tdata centeralign col9">1683</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">NT_Regional_7</td>
+    <td class="tdata centeralign col2">NT</td>
+    <td class="tdata centeralign col3">-1.36</td>
+    <td class="tdata centeralign col4">1.89</td>
+    <td class="tdata centeralign col5">-5.07</td>
+    <td class="tdata centeralign col6">2.35</td>
+    <td class="tdata centeralign col7">7</td>
+    <td class="tdata centeralign col8">Regional</td>
+    <td class="tdata centeralign col9">1277</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">NT_Regional_9</td>
+    <td class="tdata centeralign col2">NT</td>
+    <td class="tdata centeralign col3">-6.31</td>
+    <td class="tdata centeralign col4">1.90</td>
+    <td class="tdata centeralign col5">-10.05</td>
+    <td class="tdata centeralign col6">-2.57</td>
+    <td class="tdata centeralign col7">9</td>
+    <td class="tdata centeralign col8">Regional</td>
+    <td class="tdata centeralign col9">1277</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">NT_Remote_3</td>
+    <td class="tdata centeralign col2">NT</td>
+    <td class="tdata centeralign col3">-38.35</td>
+    <td class="tdata centeralign col4">1.92</td>
+    <td class="tdata centeralign col5">-42.13</td>
+    <td class="tdata centeralign col6">-34.57</td>
+    <td class="tdata centeralign col7">3</td>
+    <td class="tdata centeralign col8">Remote</td>
+    <td class="tdata centeralign col9">1480</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">NT_Remote_5</td>
+    <td class="tdata centeralign col2">NT</td>
+    <td class="tdata centeralign col3">-33.44</td>
+    <td class="tdata centeralign col4">1.93</td>
+    <td class="tdata centeralign col5">-37.22</td>
+    <td class="tdata centeralign col6">-29.66</td>
+    <td class="tdata centeralign col7">5</td>
+    <td class="tdata centeralign col8">Remote</td>
+    <td class="tdata centeralign col9">1480</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">NT_Remote_7</td>
+    <td class="tdata centeralign col2">NT</td>
+    <td class="tdata centeralign col3">-36.88</td>
+    <td class="tdata centeralign col4">1.93</td>
+    <td class="tdata centeralign col5">-40.67</td>
+    <td class="tdata centeralign col6">-33.09</td>
+    <td class="tdata centeralign col7">7</td>
+    <td class="tdata centeralign col8">Remote</td>
+    <td class="tdata centeralign col9">895</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">NT_Remote_9</td>
+    <td class="tdata centeralign col2">NT</td>
+    <td class="tdata centeralign col3">-38.67</td>
+    <td class="tdata centeralign col4">1.95</td>
+    <td class="tdata centeralign col5">-42.50</td>
+    <td class="tdata centeralign col6">-34.84</td>
+    <td class="tdata centeralign col7">9</td>
+    <td class="tdata centeralign col8">Remote</td>
+    <td class="tdata centeralign col9">895</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">NT_Very remote_3</td>
+    <td class="tdata centeralign col2">NT</td>
+    <td class="tdata centeralign col3">-87.01</td>
+    <td class="tdata centeralign col4">1.92</td>
+    <td class="tdata centeralign col5">-90.77</td>
+    <td class="tdata centeralign col6">-83.24</td>
+    <td class="tdata centeralign col7">3</td>
+    <td class="tdata centeralign col8">Very remote</td>
+    <td class="tdata centeralign col9">4592</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">NT_Very remote_5</td>
+    <td class="tdata centeralign col2">NT</td>
+    <td class="tdata centeralign col3">-81.92</td>
+    <td class="tdata centeralign col4">1.92</td>
+    <td class="tdata centeralign col5">-85.68</td>
+    <td class="tdata centeralign col6">-78.15</td>
+    <td class="tdata centeralign col7">5</td>
+    <td class="tdata centeralign col8">Very remote</td>
+    <td class="tdata centeralign col9">4592</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">NT_Very remote_7</td>
+    <td class="tdata centeralign col2">NT</td>
+    <td class="tdata centeralign col3">-83.59</td>
+    <td class="tdata centeralign col4">1.93</td>
+    <td class="tdata centeralign col5">-87.38</td>
+    <td class="tdata centeralign col6">-79.80</td>
+    <td class="tdata centeralign col7">7</td>
+    <td class="tdata centeralign col8">Very remote</td>
+    <td class="tdata centeralign col9">2566</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">NT_Very remote_9</td>
+    <td class="tdata centeralign col2">NT</td>
+    <td class="tdata centeralign col3">-82.34</td>
+    <td class="tdata centeralign col4">1.96</td>
+    <td class="tdata centeralign col5">-86.19</td>
+    <td class="tdata centeralign col6">-78.49</td>
+    <td class="tdata centeralign col7">9</td>
+    <td class="tdata centeralign col8">Very remote</td>
+    <td class="tdata centeralign col9">2566</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">QLD_Major cities_3</td>
+    <td class="tdata centeralign col2">QLD</td>
+    <td class="tdata centeralign col3">21.65</td>
+    <td class="tdata centeralign col4">1.81</td>
+    <td class="tdata centeralign col5">18.10</td>
+    <td class="tdata centeralign col6">25.20</td>
+    <td class="tdata centeralign col7">3</td>
+    <td class="tdata centeralign col8">Major cities</td>
+    <td class="tdata centeralign col9">9577</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">QLD_Major cities_5</td>
+    <td class="tdata centeralign col2">QLD</td>
+    <td class="tdata centeralign col3">24.44</td>
+    <td class="tdata centeralign col4">1.81</td>
+    <td class="tdata centeralign col5">20.89</td>
+    <td class="tdata centeralign col6">27.98</td>
+    <td class="tdata centeralign col7">5</td>
+    <td class="tdata centeralign col8">Major cities</td>
+    <td class="tdata centeralign col9">9577</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">QLD_Major cities_7</td>
+    <td class="tdata centeralign col2">QLD</td>
+    <td class="tdata centeralign col3">25.11</td>
+    <td class="tdata centeralign col4">1.81</td>
+    <td class="tdata centeralign col5">21.55</td>
+    <td class="tdata centeralign col6">28.66</td>
+    <td class="tdata centeralign col7">7</td>
+    <td class="tdata centeralign col8">Major cities</td>
+    <td class="tdata centeralign col9">6896</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">QLD_Major cities_9</td>
+    <td class="tdata centeralign col2">QLD</td>
+    <td class="tdata centeralign col3">20.06</td>
+    <td class="tdata centeralign col4">1.82</td>
+    <td class="tdata centeralign col5">16.50</td>
+    <td class="tdata centeralign col6">23.63</td>
+    <td class="tdata centeralign col7">9</td>
+    <td class="tdata centeralign col8">Major cities</td>
+    <td class="tdata centeralign col9">6896</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">QLD_Regional_3</td>
+    <td class="tdata centeralign col2">QLD</td>
+    <td class="tdata centeralign col3">13.02</td>
+    <td class="tdata centeralign col4">1.60</td>
+    <td class="tdata centeralign col5">9.88</td>
+    <td class="tdata centeralign col6">16.16</td>
+    <td class="tdata centeralign col7">3</td>
+    <td class="tdata centeralign col8">Regional</td>
+    <td class="tdata centeralign col9">14715</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">QLD_Regional_5</td>
+    <td class="tdata centeralign col2">QLD</td>
+    <td class="tdata centeralign col3">14.47</td>
+    <td class="tdata centeralign col4">1.60</td>
+    <td class="tdata centeralign col5">11.33</td>
+    <td class="tdata centeralign col6">17.61</td>
+    <td class="tdata centeralign col7">5</td>
+    <td class="tdata centeralign col8">Regional</td>
+    <td class="tdata centeralign col9">14715</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">QLD_Regional_7</td>
+    <td class="tdata centeralign col2">QLD</td>
+    <td class="tdata centeralign col3">16.43</td>
+    <td class="tdata centeralign col4">1.60</td>
+    <td class="tdata centeralign col5">13.29</td>
+    <td class="tdata centeralign col6">19.58</td>
+    <td class="tdata centeralign col7">7</td>
+    <td class="tdata centeralign col8">Regional</td>
+    <td class="tdata centeralign col9">10130</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">QLD_Regional_9</td>
+    <td class="tdata centeralign col2">QLD</td>
+    <td class="tdata centeralign col3">12.11</td>
+    <td class="tdata centeralign col4">1.61</td>
+    <td class="tdata centeralign col5">8.95</td>
+    <td class="tdata centeralign col6">15.26</td>
+    <td class="tdata centeralign col7">9</td>
+    <td class="tdata centeralign col8">Regional</td>
+    <td class="tdata centeralign col9">10130</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">QLD_Remote_3</td>
+    <td class="tdata centeralign col2">QLD</td>
+    <td class="tdata centeralign col3">-18.08</td>
+    <td class="tdata centeralign col4">1.84</td>
+    <td class="tdata centeralign col5">-21.70</td>
+    <td class="tdata centeralign col6">-14.47</td>
+    <td class="tdata centeralign col7">3</td>
+    <td class="tdata centeralign col8">Remote</td>
+    <td class="tdata centeralign col9">1547</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">QLD_Remote_5</td>
+    <td class="tdata centeralign col2">QLD</td>
+    <td class="tdata centeralign col3">-17.52</td>
+    <td class="tdata centeralign col4">1.84</td>
+    <td class="tdata centeralign col5">-21.13</td>
+    <td class="tdata centeralign col6">-13.90</td>
+    <td class="tdata centeralign col7">5</td>
+    <td class="tdata centeralign col8">Remote</td>
+    <td class="tdata centeralign col9">1547</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">QLD_Remote_7</td>
+    <td class="tdata centeralign col2">QLD</td>
+    <td class="tdata centeralign col3">-15.52</td>
+    <td class="tdata centeralign col4">1.84</td>
+    <td class="tdata centeralign col5">-19.14</td>
+    <td class="tdata centeralign col6">-11.90</td>
+    <td class="tdata centeralign col7">7</td>
+    <td class="tdata centeralign col8">Remote</td>
+    <td class="tdata centeralign col9">975</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">QLD_Remote_9</td>
+    <td class="tdata centeralign col2">QLD</td>
+    <td class="tdata centeralign col3">-16.69</td>
+    <td class="tdata centeralign col4">1.87</td>
+    <td class="tdata centeralign col5">-20.36</td>
+    <td class="tdata centeralign col6">-13.02</td>
+    <td class="tdata centeralign col7">9</td>
+    <td class="tdata centeralign col8">Remote</td>
+    <td class="tdata centeralign col9">975</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">QLD_Very remote_3</td>
+    <td class="tdata centeralign col2">QLD</td>
+    <td class="tdata centeralign col3">-32.06</td>
+    <td class="tdata centeralign col4">1.83</td>
+    <td class="tdata centeralign col5">-35.66</td>
+    <td class="tdata centeralign col6">-28.47</td>
+    <td class="tdata centeralign col7">3</td>
+    <td class="tdata centeralign col8">Very remote</td>
+    <td class="tdata centeralign col9">3265</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">QLD_Very remote_5</td>
+    <td class="tdata centeralign col2">QLD</td>
+    <td class="tdata centeralign col3">-31.31</td>
+    <td class="tdata centeralign col4">1.83</td>
+    <td class="tdata centeralign col5">-34.91</td>
+    <td class="tdata centeralign col6">-27.72</td>
+    <td class="tdata centeralign col7">5</td>
+    <td class="tdata centeralign col8">Very remote</td>
+    <td class="tdata centeralign col9">3265</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">QLD_Very remote_7</td>
+    <td class="tdata centeralign col2">QLD</td>
+    <td class="tdata centeralign col3">-27.55</td>
+    <td class="tdata centeralign col4">1.85</td>
+    <td class="tdata centeralign col5">-31.18</td>
+    <td class="tdata centeralign col6">-23.93</td>
+    <td class="tdata centeralign col7">7</td>
+    <td class="tdata centeralign col8">Very remote</td>
+    <td class="tdata centeralign col9">1570</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">QLD_Very remote_9</td>
+    <td class="tdata centeralign col2">QLD</td>
+    <td class="tdata centeralign col3">-25.69</td>
+    <td class="tdata centeralign col4">1.88</td>
+    <td class="tdata centeralign col5">-29.38</td>
+    <td class="tdata centeralign col6">-21.99</td>
+    <td class="tdata centeralign col7">9</td>
+    <td class="tdata centeralign col8">Very remote</td>
+    <td class="tdata centeralign col9">1570</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">SA_Major cities_3</td>
+    <td class="tdata centeralign col2">SA</td>
+    <td class="tdata centeralign col3">3.98</td>
+    <td class="tdata centeralign col4">1.84</td>
+    <td class="tdata centeralign col5">0.38</td>
+    <td class="tdata centeralign col6">7.58</td>
+    <td class="tdata centeralign col7">3</td>
+    <td class="tdata centeralign col8">Major cities</td>
+    <td class="tdata centeralign col9">2883</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">SA_Major cities_5</td>
+    <td class="tdata centeralign col2">SA</td>
+    <td class="tdata centeralign col3">7.23</td>
+    <td class="tdata centeralign col4">1.84</td>
+    <td class="tdata centeralign col5">3.62</td>
+    <td class="tdata centeralign col6">10.83</td>
+    <td class="tdata centeralign col7">5</td>
+    <td class="tdata centeralign col8">Major cities</td>
+    <td class="tdata centeralign col9">2883</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">SA_Major cities_7</td>
+    <td class="tdata centeralign col2">SA</td>
+    <td class="tdata centeralign col3">12.76</td>
+    <td class="tdata centeralign col4">1.84</td>
+    <td class="tdata centeralign col5">9.14</td>
+    <td class="tdata centeralign col6">16.37</td>
+    <td class="tdata centeralign col7">7</td>
+    <td class="tdata centeralign col8">Major cities</td>
+    <td class="tdata centeralign col9">1796</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">SA_Major cities_9</td>
+    <td class="tdata centeralign col2">SA</td>
+    <td class="tdata centeralign col3">9.84</td>
+    <td class="tdata centeralign col4">1.90</td>
+    <td class="tdata centeralign col5">6.11</td>
+    <td class="tdata centeralign col6">13.58</td>
+    <td class="tdata centeralign col7">9</td>
+    <td class="tdata centeralign col8">Major cities</td>
+    <td class="tdata centeralign col9">1796</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">SA_Regional_3</td>
+    <td class="tdata centeralign col2">SA</td>
+    <td class="tdata centeralign col3">-3.97</td>
+    <td class="tdata centeralign col4">1.64</td>
+    <td class="tdata centeralign col5">-7.20</td>
+    <td class="tdata centeralign col6">-0.75</td>
+    <td class="tdata centeralign col7">3</td>
+    <td class="tdata centeralign col8">Regional</td>
+    <td class="tdata centeralign col9">1896</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">SA_Regional_5</td>
+    <td class="tdata centeralign col2">SA</td>
+    <td class="tdata centeralign col3">-2.05</td>
+    <td class="tdata centeralign col4">1.64</td>
+    <td class="tdata centeralign col5">-5.27</td>
+    <td class="tdata centeralign col6">1.17</td>
+    <td class="tdata centeralign col7">5</td>
+    <td class="tdata centeralign col8">Regional</td>
+    <td class="tdata centeralign col9">1896</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">SA_Regional_7</td>
+    <td class="tdata centeralign col2">SA</td>
+    <td class="tdata centeralign col3">4.77</td>
+    <td class="tdata centeralign col4">1.64</td>
+    <td class="tdata centeralign col5">1.54</td>
+    <td class="tdata centeralign col6">8.00</td>
+    <td class="tdata centeralign col7">7</td>
+    <td class="tdata centeralign col8">Regional</td>
+    <td class="tdata centeralign col9">985</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">SA_Regional_9</td>
+    <td class="tdata centeralign col2">SA</td>
+    <td class="tdata centeralign col3">2.57</td>
+    <td class="tdata centeralign col4">1.71</td>
+    <td class="tdata centeralign col5">-0.79</td>
+    <td class="tdata centeralign col6">5.93</td>
+    <td class="tdata centeralign col7">9</td>
+    <td class="tdata centeralign col8">Regional</td>
+    <td class="tdata centeralign col9">985</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">SA_Remote_3</td>
+    <td class="tdata centeralign col2">SA</td>
+    <td class="tdata centeralign col3">-7.12</td>
+    <td class="tdata centeralign col4">2.53</td>
+    <td class="tdata centeralign col5">-12.08</td>
+    <td class="tdata centeralign col6">-2.16</td>
+    <td class="tdata centeralign col7">3</td>
+    <td class="tdata centeralign col8">Remote</td>
+    <td class="tdata centeralign col9">206</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">SA_Remote_5</td>
+    <td class="tdata centeralign col2">SA</td>
+    <td class="tdata centeralign col3">-6.08</td>
+    <td class="tdata centeralign col4">2.51</td>
+    <td class="tdata centeralign col5">-11.01</td>
+    <td class="tdata centeralign col6">-1.16</td>
+    <td class="tdata centeralign col7">5</td>
+    <td class="tdata centeralign col8">Remote</td>
+    <td class="tdata centeralign col9">206</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">SA_Remote_7</td>
+    <td class="tdata centeralign col2">SA</td>
+    <td class="tdata centeralign col3">0.77</td>
+    <td class="tdata centeralign col4">2.61</td>
+    <td class="tdata centeralign col5">-4.35</td>
+    <td class="tdata centeralign col6">5.89</td>
+    <td class="tdata centeralign col7">7</td>
+    <td class="tdata centeralign col8">Remote</td>
+    <td class="tdata centeralign col9">113</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">SA_Remote_9</td>
+    <td class="tdata centeralign col2">SA</td>
+    <td class="tdata centeralign col3">1.73</td>
+    <td class="tdata centeralign col4">3.17</td>
+    <td class="tdata centeralign col5">-4.49</td>
+    <td class="tdata centeralign col6">7.95</td>
+    <td class="tdata centeralign col7">9</td>
+    <td class="tdata centeralign col8">Remote</td>
+    <td class="tdata centeralign col9">113</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">SA_Very remote_3</td>
+    <td class="tdata centeralign col2">SA</td>
+    <td class="tdata centeralign col3">-57.06</td>
+    <td class="tdata centeralign col4">1.88</td>
+    <td class="tdata centeralign col5">-60.75</td>
+    <td class="tdata centeralign col6">-53.37</td>
+    <td class="tdata centeralign col7">3</td>
+    <td class="tdata centeralign col8">Very remote</td>
+    <td class="tdata centeralign col9">422</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">SA_Very remote_5</td>
+    <td class="tdata centeralign col2">SA</td>
+    <td class="tdata centeralign col3">-55.84</td>
+    <td class="tdata centeralign col4">1.88</td>
+    <td class="tdata centeralign col5">-59.53</td>
+    <td class="tdata centeralign col6">-52.15</td>
+    <td class="tdata centeralign col7">5</td>
+    <td class="tdata centeralign col8">Very remote</td>
+    <td class="tdata centeralign col9">422</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">SA_Very remote_7</td>
+    <td class="tdata centeralign col2">SA</td>
+    <td class="tdata centeralign col3">-47.22</td>
+    <td class="tdata centeralign col4">1.90</td>
+    <td class="tdata centeralign col5">-50.95</td>
+    <td class="tdata centeralign col6">-43.49</td>
+    <td class="tdata centeralign col7">7</td>
+    <td class="tdata centeralign col8">Very remote</td>
+    <td class="tdata centeralign col9">252</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">SA_Very remote_9</td>
+    <td class="tdata centeralign col2">SA</td>
+    <td class="tdata centeralign col3">-43.22</td>
+    <td class="tdata centeralign col4">2.32</td>
+    <td class="tdata centeralign col5">-47.77</td>
+    <td class="tdata centeralign col6">-38.67</td>
+    <td class="tdata centeralign col7">9</td>
+    <td class="tdata centeralign col8">Very remote</td>
+    <td class="tdata centeralign col9">252</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">TAS_Major cities_3</td>
+    <td class="tdata centeralign col2">TAS</td>
+    <td class="tdata centeralign col3">29.72</td>
+    <td class="tdata centeralign col4">2.51</td>
+    <td class="tdata centeralign col5">24.78</td>
+    <td class="tdata centeralign col6">34.65</td>
+    <td class="tdata centeralign col7">3</td>
+    <td class="tdata centeralign col8">Major cities</td>
+    <td class="tdata centeralign col9">NA</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">TAS_Major cities_5</td>
+    <td class="tdata centeralign col2">TAS</td>
+    <td class="tdata centeralign col3">25.96</td>
+    <td class="tdata centeralign col4">2.51</td>
+    <td class="tdata centeralign col5">21.03</td>
+    <td class="tdata centeralign col6">30.89</td>
+    <td class="tdata centeralign col7">5</td>
+    <td class="tdata centeralign col8">Major cities</td>
+    <td class="tdata centeralign col9">NA</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">TAS_Major cities_7</td>
+    <td class="tdata centeralign col2">TAS</td>
+    <td class="tdata centeralign col3">20.96</td>
+    <td class="tdata centeralign col4">2.51</td>
+    <td class="tdata centeralign col5">16.02</td>
+    <td class="tdata centeralign col6">25.89</td>
+    <td class="tdata centeralign col7">7</td>
+    <td class="tdata centeralign col8">Major cities</td>
+    <td class="tdata centeralign col9">NA</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">TAS_Major cities_9</td>
+    <td class="tdata centeralign col2">TAS</td>
+    <td class="tdata centeralign col3">17.20</td>
+    <td class="tdata centeralign col4">2.51</td>
+    <td class="tdata centeralign col5">12.27</td>
+    <td class="tdata centeralign col6">22.14</td>
+    <td class="tdata centeralign col7">9</td>
+    <td class="tdata centeralign col8">Major cities</td>
+    <td class="tdata centeralign col9">NA</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">TAS_Regional_3</td>
+    <td class="tdata centeralign col2">TAS</td>
+    <td class="tdata centeralign col3">36.97</td>
+    <td class="tdata centeralign col4">1.88</td>
+    <td class="tdata centeralign col5">33.28</td>
+    <td class="tdata centeralign col6">40.66</td>
+    <td class="tdata centeralign col7">3</td>
+    <td class="tdata centeralign col8">Regional</td>
+    <td class="tdata centeralign col9">3819</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">TAS_Regional_5</td>
+    <td class="tdata centeralign col2">TAS</td>
+    <td class="tdata centeralign col3">31.89</td>
+    <td class="tdata centeralign col4">1.88</td>
+    <td class="tdata centeralign col5">28.20</td>
+    <td class="tdata centeralign col6">35.58</td>
+    <td class="tdata centeralign col7">5</td>
+    <td class="tdata centeralign col8">Regional</td>
+    <td class="tdata centeralign col9">3819</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">TAS_Regional_7</td>
+    <td class="tdata centeralign col2">TAS</td>
+    <td class="tdata centeralign col3">28.18</td>
+    <td class="tdata centeralign col4">1.88</td>
+    <td class="tdata centeralign col5">24.49</td>
+    <td class="tdata centeralign col6">31.87</td>
+    <td class="tdata centeralign col7">7</td>
+    <td class="tdata centeralign col8">Regional</td>
+    <td class="tdata centeralign col9">2203</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">TAS_Regional_9</td>
+    <td class="tdata centeralign col2">TAS</td>
+    <td class="tdata centeralign col3">25.14</td>
+    <td class="tdata centeralign col4">1.88</td>
+    <td class="tdata centeralign col5">21.45</td>
+    <td class="tdata centeralign col6">28.83</td>
+    <td class="tdata centeralign col7">9</td>
+    <td class="tdata centeralign col8">Regional</td>
+    <td class="tdata centeralign col9">2203</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">TAS_Remote_3</td>
+    <td class="tdata centeralign col2">TAS</td>
+    <td class="tdata centeralign col3">NA</td>
+    <td class="tdata centeralign col4">NA</td>
+    <td class="tdata centeralign col5">NA</td>
+    <td class="tdata centeralign col6">NA</td>
+    <td class="tdata centeralign col7">3</td>
+    <td class="tdata centeralign col8">Remote</td>
+    <td class="tdata centeralign col9">92</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">TAS_Remote_5</td>
+    <td class="tdata centeralign col2">TAS</td>
+    <td class="tdata centeralign col3">NA</td>
+    <td class="tdata centeralign col4">NA</td>
+    <td class="tdata centeralign col5">NA</td>
+    <td class="tdata centeralign col6">NA</td>
+    <td class="tdata centeralign col7">5</td>
+    <td class="tdata centeralign col8">Remote</td>
+    <td class="tdata centeralign col9">92</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">TAS_Remote_7</td>
+    <td class="tdata centeralign col2">TAS</td>
+    <td class="tdata centeralign col3">NA</td>
+    <td class="tdata centeralign col4">NA</td>
+    <td class="tdata centeralign col5">NA</td>
+    <td class="tdata centeralign col6">NA</td>
+    <td class="tdata centeralign col7">7</td>
+    <td class="tdata centeralign col8">Remote</td>
+    <td class="tdata centeralign col9">45</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">TAS_Remote_9</td>
+    <td class="tdata centeralign col2">TAS</td>
+    <td class="tdata centeralign col3">NA</td>
+    <td class="tdata centeralign col4">NA</td>
+    <td class="tdata centeralign col5">NA</td>
+    <td class="tdata centeralign col6">NA</td>
+    <td class="tdata centeralign col7">9</td>
+    <td class="tdata centeralign col8">Remote</td>
+    <td class="tdata centeralign col9">45</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">TAS_Very remote_3</td>
+    <td class="tdata centeralign col2">TAS</td>
+    <td class="tdata centeralign col3">NA</td>
+    <td class="tdata centeralign col4">NA</td>
+    <td class="tdata centeralign col5">NA</td>
+    <td class="tdata centeralign col6">NA</td>
+    <td class="tdata centeralign col7">3</td>
+    <td class="tdata centeralign col8">Very remote</td>
+    <td class="tdata centeralign col9">9</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">TAS_Very remote_5</td>
+    <td class="tdata centeralign col2">TAS</td>
+    <td class="tdata centeralign col3">NA</td>
+    <td class="tdata centeralign col4">NA</td>
+    <td class="tdata centeralign col5">NA</td>
+    <td class="tdata centeralign col6">NA</td>
+    <td class="tdata centeralign col7">5</td>
+    <td class="tdata centeralign col8">Very remote</td>
+    <td class="tdata centeralign col9">9</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">TAS_Very remote_7</td>
+    <td class="tdata centeralign col2">TAS</td>
+    <td class="tdata centeralign col3">NA</td>
+    <td class="tdata centeralign col4">NA</td>
+    <td class="tdata centeralign col5">NA</td>
+    <td class="tdata centeralign col6">NA</td>
+    <td class="tdata centeralign col7">7</td>
+    <td class="tdata centeralign col8">Very remote</td>
+    <td class="tdata centeralign col9">10</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">TAS_Very remote_9</td>
+    <td class="tdata centeralign col2">TAS</td>
+    <td class="tdata centeralign col3">NA</td>
+    <td class="tdata centeralign col4">NA</td>
+    <td class="tdata centeralign col5">NA</td>
+    <td class="tdata centeralign col6">NA</td>
+    <td class="tdata centeralign col7">9</td>
+    <td class="tdata centeralign col8">Very remote</td>
+    <td class="tdata centeralign col9">10</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">VIC_Major cities_3</td>
+    <td class="tdata centeralign col2">VIC</td>
+    <td class="tdata centeralign col3">44.80</td>
+    <td class="tdata centeralign col4">1.97</td>
+    <td class="tdata centeralign col5">40.93</td>
+    <td class="tdata centeralign col6">48.68</td>
+    <td class="tdata centeralign col7">3</td>
+    <td class="tdata centeralign col8">Major cities</td>
+    <td class="tdata centeralign col9">3311</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">VIC_Major cities_5</td>
+    <td class="tdata centeralign col2">VIC</td>
+    <td class="tdata centeralign col3">42.78</td>
+    <td class="tdata centeralign col4">1.97</td>
+    <td class="tdata centeralign col5">38.90</td>
+    <td class="tdata centeralign col6">46.65</td>
+    <td class="tdata centeralign col7">5</td>
+    <td class="tdata centeralign col8">Major cities</td>
+    <td class="tdata centeralign col9">3311</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">VIC_Major cities_7</td>
+    <td class="tdata centeralign col2">VIC</td>
+    <td class="tdata centeralign col3">30.23</td>
+    <td class="tdata centeralign col4">1.97</td>
+    <td class="tdata centeralign col5">26.36</td>
+    <td class="tdata centeralign col6">34.10</td>
+    <td class="tdata centeralign col7">7</td>
+    <td class="tdata centeralign col8">Major cities</td>
+    <td class="tdata centeralign col9">2408</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">VIC_Major cities_9</td>
+    <td class="tdata centeralign col2">VIC</td>
+    <td class="tdata centeralign col3">29.27</td>
+    <td class="tdata centeralign col4">1.97</td>
+    <td class="tdata centeralign col5">25.40</td>
+    <td class="tdata centeralign col6">33.14</td>
+    <td class="tdata centeralign col7">9</td>
+    <td class="tdata centeralign col8">Major cities</td>
+    <td class="tdata centeralign col9">2408</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">VIC_Regional_3</td>
+    <td class="tdata centeralign col2">VIC</td>
+    <td class="tdata centeralign col3">34.50</td>
+    <td class="tdata centeralign col4">1.81</td>
+    <td class="tdata centeralign col5">30.95</td>
+    <td class="tdata centeralign col6">38.04</td>
+    <td class="tdata centeralign col7">3</td>
+    <td class="tdata centeralign col8">Regional</td>
+    <td class="tdata centeralign col9">3609</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">VIC_Regional_5</td>
+    <td class="tdata centeralign col2">VIC</td>
+    <td class="tdata centeralign col3">31.14</td>
+    <td class="tdata centeralign col4">1.81</td>
+    <td class="tdata centeralign col5">27.60</td>
+    <td class="tdata centeralign col6">34.69</td>
+    <td class="tdata centeralign col7">5</td>
+    <td class="tdata centeralign col8">Regional</td>
+    <td class="tdata centeralign col9">3609</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">VIC_Regional_7</td>
+    <td class="tdata centeralign col2">VIC</td>
+    <td class="tdata centeralign col3">19.89</td>
+    <td class="tdata centeralign col4">1.81</td>
+    <td class="tdata centeralign col5">16.34</td>
+    <td class="tdata centeralign col6">23.43</td>
+    <td class="tdata centeralign col7">7</td>
+    <td class="tdata centeralign col8">Regional</td>
+    <td class="tdata centeralign col9">2401</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">VIC_Regional_9</td>
+    <td class="tdata centeralign col2">VIC</td>
+    <td class="tdata centeralign col3">19.64</td>
+    <td class="tdata centeralign col4">1.81</td>
+    <td class="tdata centeralign col5">16.09</td>
+    <td class="tdata centeralign col6">23.19</td>
+    <td class="tdata centeralign col7">9</td>
+    <td class="tdata centeralign col8">Regional</td>
+    <td class="tdata centeralign col9">2401</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">VIC_Remote_3</td>
+    <td class="tdata centeralign col2">VIC</td>
+    <td class="tdata centeralign col3">NA</td>
+    <td class="tdata centeralign col4">NA</td>
+    <td class="tdata centeralign col5">NA</td>
+    <td class="tdata centeralign col6">NA</td>
+    <td class="tdata centeralign col7">3</td>
+    <td class="tdata centeralign col8">Remote</td>
+    <td class="tdata centeralign col9">3</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">VIC_Remote_5</td>
+    <td class="tdata centeralign col2">VIC</td>
+    <td class="tdata centeralign col3">NA</td>
+    <td class="tdata centeralign col4">NA</td>
+    <td class="tdata centeralign col5">NA</td>
+    <td class="tdata centeralign col6">NA</td>
+    <td class="tdata centeralign col7">5</td>
+    <td class="tdata centeralign col8">Remote</td>
+    <td class="tdata centeralign col9">3</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">VIC_Remote_7</td>
+    <td class="tdata centeralign col2">VIC</td>
+    <td class="tdata centeralign col3">NA</td>
+    <td class="tdata centeralign col4">NA</td>
+    <td class="tdata centeralign col5">NA</td>
+    <td class="tdata centeralign col6">NA</td>
+    <td class="tdata centeralign col7">7</td>
+    <td class="tdata centeralign col8">Remote</td>
+    <td class="tdata centeralign col9">4</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">VIC_Remote_9</td>
+    <td class="tdata centeralign col2">VIC</td>
+    <td class="tdata centeralign col3">NA</td>
+    <td class="tdata centeralign col4">NA</td>
+    <td class="tdata centeralign col5">NA</td>
+    <td class="tdata centeralign col6">NA</td>
+    <td class="tdata centeralign col7">9</td>
+    <td class="tdata centeralign col8">Remote</td>
+    <td class="tdata centeralign col9">4</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">VIC_Very remote_3</td>
+    <td class="tdata centeralign col2">VIC</td>
+    <td class="tdata centeralign col3">NA</td>
+    <td class="tdata centeralign col4">NA</td>
+    <td class="tdata centeralign col5">NA</td>
+    <td class="tdata centeralign col6">NA</td>
+    <td class="tdata centeralign col7">3</td>
+    <td class="tdata centeralign col8">Very remote</td>
+    <td class="tdata centeralign col9">NA</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">VIC_Very remote_5</td>
+    <td class="tdata centeralign col2">VIC</td>
+    <td class="tdata centeralign col3">NA</td>
+    <td class="tdata centeralign col4">NA</td>
+    <td class="tdata centeralign col5">NA</td>
+    <td class="tdata centeralign col6">NA</td>
+    <td class="tdata centeralign col7">5</td>
+    <td class="tdata centeralign col8">Very remote</td>
+    <td class="tdata centeralign col9">NA</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">VIC_Very remote_7</td>
+    <td class="tdata centeralign col2">VIC</td>
+    <td class="tdata centeralign col3">NA</td>
+    <td class="tdata centeralign col4">NA</td>
+    <td class="tdata centeralign col5">NA</td>
+    <td class="tdata centeralign col6">NA</td>
+    <td class="tdata centeralign col7">7</td>
+    <td class="tdata centeralign col8">Very remote</td>
+    <td class="tdata centeralign col9">NA</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">VIC_Very remote_9</td>
+    <td class="tdata centeralign col2">VIC</td>
+    <td class="tdata centeralign col3">NA</td>
+    <td class="tdata centeralign col4">NA</td>
+    <td class="tdata centeralign col5">NA</td>
+    <td class="tdata centeralign col6">NA</td>
+    <td class="tdata centeralign col7">9</td>
+    <td class="tdata centeralign col8">Very remote</td>
+    <td class="tdata centeralign col9">NA</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">WA_Major cities_3</td>
+    <td class="tdata centeralign col2">WA</td>
+    <td class="tdata centeralign col3">6.84</td>
+    <td class="tdata centeralign col4">1.81</td>
+    <td class="tdata centeralign col5">3.29</td>
+    <td class="tdata centeralign col6">10.39</td>
+    <td class="tdata centeralign col7">3</td>
+    <td class="tdata centeralign col8">Major cities</td>
+    <td class="tdata centeralign col9">4474</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">WA_Major cities_5</td>
+    <td class="tdata centeralign col2">WA</td>
+    <td class="tdata centeralign col3">8.55</td>
+    <td class="tdata centeralign col4">1.81</td>
+    <td class="tdata centeralign col5">5.00</td>
+    <td class="tdata centeralign col6">12.10</td>
+    <td class="tdata centeralign col7">5</td>
+    <td class="tdata centeralign col8">Major cities</td>
+    <td class="tdata centeralign col9">4474</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">WA_Major cities_7</td>
+    <td class="tdata centeralign col2">WA</td>
+    <td class="tdata centeralign col3">13.49</td>
+    <td class="tdata centeralign col4">1.81</td>
+    <td class="tdata centeralign col5">9.93</td>
+    <td class="tdata centeralign col6">17.04</td>
+    <td class="tdata centeralign col7">7</td>
+    <td class="tdata centeralign col8">Major cities</td>
+    <td class="tdata centeralign col9">3313</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">WA_Major cities_9</td>
+    <td class="tdata centeralign col2">WA</td>
+    <td class="tdata centeralign col3">13.79</td>
+    <td class="tdata centeralign col4">1.82</td>
+    <td class="tdata centeralign col5">10.22</td>
+    <td class="tdata centeralign col6">17.36</td>
+    <td class="tdata centeralign col7">9</td>
+    <td class="tdata centeralign col8">Major cities</td>
+    <td class="tdata centeralign col9">3313</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">WA_Regional_3</td>
+    <td class="tdata centeralign col2">WA</td>
+    <td class="tdata centeralign col3">-2.94</td>
+    <td class="tdata centeralign col4">1.60</td>
+    <td class="tdata centeralign col5">-6.08</td>
+    <td class="tdata centeralign col6">0.20</td>
+    <td class="tdata centeralign col7">3</td>
+    <td class="tdata centeralign col8">Regional</td>
+    <td class="tdata centeralign col9">2433</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">WA_Regional_5</td>
+    <td class="tdata centeralign col2">WA</td>
+    <td class="tdata centeralign col3">-2.56</td>
+    <td class="tdata centeralign col4">1.60</td>
+    <td class="tdata centeralign col5">-5.70</td>
+    <td class="tdata centeralign col6">0.58</td>
+    <td class="tdata centeralign col7">5</td>
+    <td class="tdata centeralign col8">Regional</td>
+    <td class="tdata centeralign col9">2433</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">WA_Regional_7</td>
+    <td class="tdata centeralign col2">WA</td>
+    <td class="tdata centeralign col3">3.68</td>
+    <td class="tdata centeralign col4">1.60</td>
+    <td class="tdata centeralign col5">0.53</td>
+    <td class="tdata centeralign col6">6.82</td>
+    <td class="tdata centeralign col7">7</td>
+    <td class="tdata centeralign col8">Regional</td>
+    <td class="tdata centeralign col9">1632</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">WA_Regional_9</td>
+    <td class="tdata centeralign col2">WA</td>
+    <td class="tdata centeralign col3">4.69</td>
+    <td class="tdata centeralign col4">1.61</td>
+    <td class="tdata centeralign col5">1.54</td>
+    <td class="tdata centeralign col6">7.85</td>
+    <td class="tdata centeralign col7">9</td>
+    <td class="tdata centeralign col8">Regional</td>
+    <td class="tdata centeralign col9">1632</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">WA_Remote_3</td>
+    <td class="tdata centeralign col2">WA</td>
+    <td class="tdata centeralign col3">-20.33</td>
+    <td class="tdata centeralign col4">1.84</td>
+    <td class="tdata centeralign col5">-23.94</td>
+    <td class="tdata centeralign col6">-16.72</td>
+    <td class="tdata centeralign col7">3</td>
+    <td class="tdata centeralign col8">Remote</td>
+    <td class="tdata centeralign col9">1358</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">WA_Remote_5</td>
+    <td class="tdata centeralign col2">WA</td>
+    <td class="tdata centeralign col3">-20.83</td>
+    <td class="tdata centeralign col4">1.84</td>
+    <td class="tdata centeralign col5">-24.45</td>
+    <td class="tdata centeralign col6">-17.22</td>
+    <td class="tdata centeralign col7">5</td>
+    <td class="tdata centeralign col8">Remote</td>
+    <td class="tdata centeralign col9">1358</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">WA_Remote_7</td>
+    <td class="tdata centeralign col2">WA</td>
+    <td class="tdata centeralign col3">-14.57</td>
+    <td class="tdata centeralign col4">1.84</td>
+    <td class="tdata centeralign col5">-18.19</td>
+    <td class="tdata centeralign col6">-10.95</td>
+    <td class="tdata centeralign col7">7</td>
+    <td class="tdata centeralign col8">Remote</td>
+    <td class="tdata centeralign col9">945</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">WA_Remote_9</td>
+    <td class="tdata centeralign col2">WA</td>
+    <td class="tdata centeralign col3">-10.39</td>
+    <td class="tdata centeralign col4">1.87</td>
+    <td class="tdata centeralign col5">-14.07</td>
+    <td class="tdata centeralign col6">-6.72</td>
+    <td class="tdata centeralign col7">9</td>
+    <td class="tdata centeralign col8">Remote</td>
+    <td class="tdata centeralign col9">945</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">WA_Very remote_3</td>
+    <td class="tdata centeralign col2">WA</td>
+    <td class="tdata centeralign col3">-48.12</td>
+    <td class="tdata centeralign col4">1.83</td>
+    <td class="tdata centeralign col5">-51.71</td>
+    <td class="tdata centeralign col6">-44.53</td>
+    <td class="tdata centeralign col7">3</td>
+    <td class="tdata centeralign col8">Very remote</td>
+    <td class="tdata centeralign col9">2464</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">WA_Very remote_5</td>
+    <td class="tdata centeralign col2">WA</td>
+    <td class="tdata centeralign col3">-48.45</td>
+    <td class="tdata centeralign col4">1.83</td>
+    <td class="tdata centeralign col5">-52.04</td>
+    <td class="tdata centeralign col6">-44.86</td>
+    <td class="tdata centeralign col7">5</td>
+    <td class="tdata centeralign col8">Very remote</td>
+    <td class="tdata centeralign col9">2464</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">WA_Very remote_7</td>
+    <td class="tdata centeralign col2">WA</td>
+    <td class="tdata centeralign col3">-40.42</td>
+    <td class="tdata centeralign col4">1.85</td>
+    <td class="tdata centeralign col5">-44.05</td>
+    <td class="tdata centeralign col6">-36.79</td>
+    <td class="tdata centeralign col7">7</td>
+    <td class="tdata centeralign col8">Very remote</td>
+    <td class="tdata centeralign col9">1414</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol lasttablerow col1">WA_Very remote_9</td>
+    <td class="tdata centeralign lasttablerow col2">WA</td>
+    <td class="tdata centeralign lasttablerow col3">-33.21</td>
+    <td class="tdata centeralign lasttablerow col4">1.88</td>
+    <td class="tdata centeralign lasttablerow col5">-36.90</td>
+    <td class="tdata centeralign lasttablerow col6">-29.51</td>
+    <td class="tdata centeralign lasttablerow col7">9</td>
+    <td class="tdata centeralign lasttablerow col8">Very remote</td>
+    <td class="tdata centeralign lasttablerow col9">1414</td>
+</tr>
+</table>
+
+</body></html>
